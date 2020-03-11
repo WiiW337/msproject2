@@ -1,0 +1,14 @@
+.box {
+    width: 20px;
+    border: 2px solid green;
+    padding: 40px;
+    margin: 10px;
+    background-color: rgb(6, 168, 168);
+    color: rgb(238, 255, 0);
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.rBTN {
+    width: 100px;
+}
