@@ -13,16 +13,56 @@
 </head>
 
 <body>
-    <div class="container-fluid" id="boxes">
-        <div class="row">
-            <div class="box col" id="result1">#</div>
-            <div class="box col" id="result2">#</div>
-            <div class="box col" id="result3">#</div>
-            <div class="box col" id="result4">#</div>
-        </div>
+    <div class="container mt-5 starting-pg">
         <div class="row justify-content-center">
-            <button onclick="randomBTN();" class="rBTN mt-5">Press!!</button>
+            <div class="border rounded col-3 player-form">
+                <form>
+                    <label for="name">Player Name: </label> <br>
+                    <input type="text" class="player-name" id="player-name">
+                </form> <br>
+                <button>Start!!!</button>
+            </div>
+
         </div>
+    </div>
+
+
+    <div class="container game-pg" id="boxes">
+        <div class="row justify-content-center">
+            <div class="card align-items-center justify-content-center col-2" id="result1">#</div>
+            <div class="card align-items-center justify-content-center col-2" id="result2">#</div>
+            <div class="card align-items-center justify-content-center col-2" id="result3">#</div>
+            <div class="card align-items-center justify-content-center col-2" id="result4">#</div>
+        </div>
+
+
+
+        <div class="row justify-content-center">
+            <button onclick="randomBTN();" class="random-btn" id="r-btn">Press!!</button>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="card align-items-center justify-content-center col-2" id="selected1">#</div>
+            <div class="card align-items-center justify-content-center col-2" id="selected2">#</div>
+            <div class="card align-items-center justify-content-center col-2" id="selected3">#</div>
+            <div class="card align-items-center justify-content-center col-2" id="selected4">#</div>
+        </div>
+
+        <div class="container justify-content-center">
+            <div class="row justify-content-center">
+                <div class="block-divider"></div>
+            </div>
+        </div>
+
+
+        <div class="row justify-content-center">
+            <div class="card align-items-center justify-content-center col-2" id="pick1">A</div>
+            <div class="card align-items-center justify-content-center col-2" id="pick2">B</div>
+            <div class="card align-items-center justify-content-center col-2" id="pick3">C</div>
+            <div class="card align-items-center justify-content-center col-2" id="pick4">D</div>
+        </div>
+
+    </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js "></script>

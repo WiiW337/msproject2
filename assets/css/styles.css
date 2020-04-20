@@ -1,5 +1,8 @@
+body {
+    background-color: #1b9bce;
+}
+
 .box {
-    width: 20px;
     border: 2px solid green;
     padding: 40px;
     margin: 10px;
@@ -9,6 +12,49 @@
     font-size: 1.5em;
 }
 
-.rBTN {
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
+    margin: 20px;
+}
+
+.card {
+    height: 100px;
+    margin: 10px;
+    border: 2px solid green;
+    background-color: rgb(6, 168, 168);
+    color: rgb(238, 255, 0);
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.player-name {
+    border: none;
+    font-weight: 10em;
+}
+
+.random-btn {
     width: 100px;
+    margin: 10px;
+}
+
+.starting-pg {
+    background-color: rgba(223, 248, 83, 0.5);
+    visibility: hidden;
+}
+
+.player-form {
+    padding: 15px 40px;
+    height: 200px;
+    position: absolute;
+    background-color: #fff;
+    z-index: 1;
+    display: flex;
+}
+
+.game-pg {
+    z-index: 0;
+    position: relative;
 }
